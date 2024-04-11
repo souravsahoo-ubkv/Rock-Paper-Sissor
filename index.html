@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock-Paper-Sissor</title>
+  </head>
+  <body>
+    <h1>
+      Rock-Paper-Sissor
+      <button class="dark">Mode!</button>
+      
+    </h1>
+
+    <!-- Game Choices -->
+    <div class="game">
+      <div class="Rock choice" id="Rock">
+        <img src="./img/rock.png" alt="" />
+      </div>
+
+      <div class="Paper choice" id="Paper">
+        <img src="./img/paper.png" alt="" />
+      </div>
+
+      <div class="Sissor choice" id="Sissor">
+        <img src="./img/scissors.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Score Board -->
+
+    <div class="score-board">
+      <!-- Usear Score -->
+      <div class="score">
+        <p id="user-score">0</p>
+        <p>You</p>
+      </div>
+      <!-- Computer Score -->
+      <div class="score">
+        <p id="com-score">0</p>
+        <p>Computer</p>
+      </div>
+    </div>
+
+    <!-- Massage Box -->
+
+    <div class="mas-box">
+      <p id="mas" class="mas">Play Your Move</p>
+    </div>
+
+    <div class="resat-game" id="resat">
+      <button class="resat">Resat Game!</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
